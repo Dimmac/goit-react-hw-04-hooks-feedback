@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import { FeedbackButtonStyled } from './FeedbackOptions.styled';
 
-function FeedbackOptions(props) {
-  const { options, onLeaveFeedback } = props;
+function FeedbackOptions({options, onLeaveFeedback}) {
   return options.map((option, index) => {
     return (
       <FeedbackButtonStyled

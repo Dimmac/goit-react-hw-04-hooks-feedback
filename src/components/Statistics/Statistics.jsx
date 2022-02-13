@@ -5,8 +5,7 @@ import {
   StatisticValues,
 } from './Statistic.styled';
 
-export default function Statistics(props) {
-  const { good, neutral, bad, total, positivePercentage } = props;
+export default function Statistics({good, neutral, bad, total, positivePercentage}) {
   return (
     <StatisticListStyle>
       <StatisticItem>
